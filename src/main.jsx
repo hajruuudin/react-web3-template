@@ -1,9 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { useWeb3, Web3Provider } from './Web3Provider'
+import { Web3Provider } from './Web3Provider'
 import './index.css'
 import App from './App'
 
+/*
+  No need to modify anything here as everything is as it should be
+*/
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Web3Provider>

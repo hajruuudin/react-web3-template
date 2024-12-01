@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/*
+  Custom font imported from google fonts:
+*/
 .open-sans-regular {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
