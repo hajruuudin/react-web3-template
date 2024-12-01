@@ -5,7 +5,21 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {}
+    extend: {
+      animation: {
+        'tick-tick': 'tickTick 2s ease-in-out infinite',
+      },
+      keyframes: {
+        tickTick: {
+          '0%, 100%': {
+            transform: 'rotate(-5deg)',
+          },
+          '50%': {
+            transform: 'rotate(5deg)',
+          },
+        },
+      },
+    }
   },
   plugins: [],
 }
