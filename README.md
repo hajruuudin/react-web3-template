@@ -1,6 +1,6 @@
 # React + Web3JS Template
 
-This is a basic file structure and template for simple projects using Solidity and Etherum as a backend service. The structure conists of a basic system where all the connection and required variables for Web3 and React to work have already been set up. The only thing left for development is adding the contract functions. Feel free to copy and use as needed. The tempalte is based of React, Web3 and Tailwind for styling. It is compiled and created with Vite + NodeJS.
+This is a basic file structure and template for simple projects using Solidity and Etherum as a backend service. The structure conists of a basic system where all the connection and required variables for Web3 and React to work have already been set up. The only thing left for development is adding the contract functions. Feel free to copy and use as needed. The template is based of React, Web3 and Tailwind for styling. It is compiled and created with Vite + NodeJS.
 
 ## Set Up I - Downloading the template
 To make this work, copy the repository and mrun the following commands inside of the terminal at the root directory:
