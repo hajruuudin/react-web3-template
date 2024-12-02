@@ -10,7 +10,7 @@ npm run dev // to get the server running at port 5173
 ```
 
 Afterwards, everything is explained inside of the files, but essentially, everything is focused around Web3Provider as a context to the whole react application. All variables realted to the smart contract as well as methods from the smart contract should be written inside Web3Provider.jsx:
-```
+```terminal
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Web3Provider>
@@ -19,7 +19,7 @@ createRoot(document.getElementById('root')).render(
   </StrictMode>,
 )
 ```
-```
+```javascript
 /*
 -- CONTEXT PROVIDING - MODIFY --
   This will return the context, along with all of the states and functions.
@@ -34,7 +34,7 @@ return (
 ```
 ## Set Up II - Key variables
 Everything is ready made except two variables: The contract ABI and the Contract address of an existing Solidiy contract. This should be placed by the user, after which all the methods from the contract should be implemented as needed. The methods are provided as functions of the context:
-```
+```javascript
 const contractABI = []; // replace this with the actual contract ABI
 const contractAddress = ""; // replace this with the actual contract address
 ```
