@@ -4,13 +4,13 @@ This is a basic file structure and template for simple projects using Solidity a
 
 ## Set Up I - Downloading the template
 To make this work, copy the repository and mrun the following commands inside of the terminal at the root directory:
-```
+```node
 npm install // to install React, Web3 and Tailwind required libraries
 npm run dev // to get the server running at port 5173
 ```
 
 Afterwards, everything is explained inside of the files, but essentially, everything is focused around Web3Provider as a context to the whole react application. All variables realted to the smart contract as well as methods from the smart contract should be written inside Web3Provider.jsx:
-```terminal
+```javascript
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Web3Provider>
