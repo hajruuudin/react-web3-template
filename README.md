@@ -42,5 +42,4 @@ const contractAddress = ""; // replace this with the actual contract address
 ## References
 Context and its use = https://react.dev/learn/passing-data-deeply-with-context \
 Web3JS Documentation = https://web3js.readthedocs.io/en/v1.10.0/ \
-Contract used in the application Demo = /TODO/ \
 Solidity and its syntax = https://soliditylang.org/
